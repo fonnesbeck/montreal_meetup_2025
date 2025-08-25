@@ -1,0 +1,32 @@
+[workspace]
+authors = ["Chris Fonnesbeck <fonnesbeck@gmail.com>"]
+channels = ["conda-forge"]
+name = "pymc_meetup"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.13.3,<3.14"
+ipython = ">=9.1.0,<10"
+ipykernel = ">=6.29.5,<7"
+arviz = ">=0.21.0,<0.22"
+polars = ">=1.27.1,<2"
+pytensor = ">=2.30.3,<3"
+pymc = ">=5.22.0,<6"
+plotly = ">=6.0.1,<7"
+ipywidgets = ">=8.1.6,<9"
+pyarrow = ">=19.0.1,<20"
+watermark = ">=2.5.0,<3"
+statsmodels = ">=0.14.4,<0.15"
+nutpie = ">=0.15.1,<0.16"
+numba = ">=0.61.2,<0.62"
+jax = ">=0.6.0,<0.7"
+numpyro = ">=0.18.0,<0.19"
+seaborn = ">=0.13.2,<0.14"
+preliz = ">=0.19.0,<0.20"
+nbformat = ">=5.10.4,<6"
+
+[pypi-dependencies]
+pymc-extras = ">=0.3.1, <0.4"

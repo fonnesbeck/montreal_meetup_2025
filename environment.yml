@@ -1,0 +1,35 @@
+name: pymc_meetup
+
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - arviz
+  - ipykernel
+  - ipython
+  - ipywidgets
+  - jax
+  - jupyter_client
+  - jupyter_core
+  - jupyterlab
+  - nbformat
+  - numba
+  - numpyro
+  - nutpie
+  - patsy
+  - pip
+  - plotly
+  - polars
+  - preliz
+  - pyarrow
+  - pymc
+  - pymc-extras
+  - pydot
+  - python-graphviz
+  - pytensor
+  - scipy
+  - seaborn
+  - setuptools
+  - statsmodels
+  - watermark
+  - xlrd
